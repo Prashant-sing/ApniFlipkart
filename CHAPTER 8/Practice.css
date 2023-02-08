@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progressbar{
+    background-color: red;
+    height: 0.3vh;
+    animation: ProgressBar 2s ease-in-out  1;
+    /* transition: width 2s ease-in-out; */
+}
+header{
+    background-color: yellow;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: black;
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* img{ */
+    /* animation: Rotate 1s ease-in infinite; */
+    /* display: block; */
+    /* margin: auto; */
+/* } */
+.slider{
+    background-color: hotpink;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* margin: auto; */
+}
+.img1{
+    transform: translate(-30vw); 
+    animation: Slide1 1s 2s forwards;
+}
+.img2{
+    transform: translate(0vw);
+    animation: Slide2 1s 2s forwards;
+}
+.img3{
+    transform: translate(30vw);
+}
+@keyframes Slide1 {
+    0%{
+        transform: translate(-30vw);
+    }
+    100%{
+        transform: translate(60vw);
+    }
+}
+@keyframes Slide2 {
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+        transform: translate(100vw);
+    }
+}
+footer{
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes ProgressBar{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 90vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}  
+@keyframes Rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+

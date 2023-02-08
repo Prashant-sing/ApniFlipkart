@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 25px;
+    /* width: 30vw; */
+    background-color: rgb(255, 132, 0);
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+li{
+    /* display: inline; */
+    font-size: 3vw;
+    padding: 0px 15px;
+    list-style: circle inside url(dot.svg);
+}
+.container{
+    min-height: 500px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+.container2{
+    min-height: 500px;
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+}

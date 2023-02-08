@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+li{
+    padding: 0 20px;
+   display: inline;
+   list-style: none;
+}
+.box1{
+    height: 50vh;
+    width: 50vw;
+    background-color: aqua;
+    float: left;
+    color: red;
+}
+.box2{
+    height: 50vh;
+    width: 50vw;
+    background-color: yellow;
+    float: right;
+    color: blue;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    color: black;
+    width: 80vw;
+    /* min-width: 50vw; */
+    max-width: 50vw;
+    height: 70vh;
+    max-height: 50vh;
+    /* min-height: 50vh; */
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-size: 20px;
+}

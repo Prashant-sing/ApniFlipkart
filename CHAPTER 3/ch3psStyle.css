@@ -1,0 +1,24 @@
+header{
+    margin: 20px;
+    border: 3px solid white;
+    height: 66px;
+    background-color: black;
+    color: white;
+}
+.content{
+    padding: 20px;
+    margin: 34px;
+    background-color: red;
+    height: 70vh;
+}
+footer{
+    background-color: aqua;
+    margin: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}

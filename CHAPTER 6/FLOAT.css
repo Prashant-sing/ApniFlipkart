@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-color: red;
+    color: black;
+    height: 20vh;
+    width: 20vw;
+    float: left;
+}
+.container2{
+    background-color: yellow;
+    color: blue;
+    height: 20vh;
+    width: 20vw;
+    float: right;
+    clear: both;
+    /* float: right; */
+}

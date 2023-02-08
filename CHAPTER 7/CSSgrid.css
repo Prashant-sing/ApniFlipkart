@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: yellow;
+    display: grid;
+    height: 56vh;
+    /* grid-row-gap: 5px;
+    grid-column-gap: 5px; */
+    grid-gap: 9px;
+    /* grid-template-columns: 300px 300px;
+    grid-template-rows: 44px 84px;  */
+    grid-template-columns: auto auto auto auto;
+    /* align-content: center;
+    justify-content: space-between; */
+}
+.item{
+    background-color: aquamarine;
+    border: 2px solid red;
+}

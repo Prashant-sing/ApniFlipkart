@@ -1,0 +1,14 @@
+p{
+    width: 1000px;
+    height: 500px;
+    background-color: red;
+    color: white;
+    /* text-decoration: underline; */
+    text-transform: none;
+    /* line-height: 2px; */
+    font-size: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Balsamiq Sans', cursive;
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather', serif; */
+}

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Balsamiq+Sans:wght@400;700&family=Josefin+Sans:wght@100&family=Merriweather:ital,wght@1,300&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Balsamiq+Sans:wght@400;700&family=Josefin+Sans:wght@100&family=Merriweather:ital,wght@1,300&family=Roboto+Slab&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    /* width: 100%; */
+    height: 15vh;
+    background-color: var(--main-bg-color);
+    font-family: 'Zen Antique', serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 90px;
+    padding: 0 15px;
+}
+
+nav ul{
+    /* height: 60px; */
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    /* display: inline; */
+    margin: 14px 15px;
+    padding: 0 5px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px -10px;
+    padding: 0 20px;    
+}
+
+.searchbox input{
+    font-size: 14px;
+    width: 30vw;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 4px 0 0 4px;
+    margin: 0px 10px 0px 0px;
+    padding: 0 20px;
+}
+ 
+.searchbox button{
+    font-family: 'Zen Antique', serif;
+}
+
+.btn:hover{
+    font-weight: bolder;
+}
+/* .searchbox input{
+    width: 350px;
+    height: 18px;
+    border-radius: 3px;
+    margin: 0px -15px 0px 0px;
+} */
+/* .L0Z3Pu{
+    width: 10px;
+    height: 33px;
+    background: white;
+} */
+/* .L0Z3Pu svg{
+    margin: 3px 0px 0px -23px;
+    width: 12px;
+    height: 32px;
+} */
+.container{
+    min-height: calc(100vh - 56px - 10vh);
+    background-color: rgb(239, 238, 238);
+}
+.slider{
+    margin: auto;
+    width: 90vw;
+    height: 41vh;
+    overflow: hidden;
+    /* margin: 10px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container .slider img{
+    background-color: white;
+    width: 25vw;
+    height: 40vh;
+}
+.card{
+    background-color: white;
+    max-width: 90vw;
+    margin: 7px auto;
+    border: 1px solid rgba(164, 163, 163, 0.4);
+    border-radius: 1px 1px 1px 1px;
+}
+
+.cards{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: scroll;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 auto;
+}
+.container .card .card-item img{
+    /* width: 200px; */
+    height: 25vh;
+    /* width: 10vw; */
+    margin: 0 10px;
+}
+
+.line1{
+    font-family: 'Roboto Slab', serif;
+    margin: 0 30px;
+    /* font-size: 14px;
+    font-weight: 500; */
+    /* display: flex;
+    justify-content: center; 
+    text-align: center; */
+}
+.line2{
+    margin: 0 5px;
+    color: green;
+}
+.line3{
+    margin: 0 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+     /* FOR STUMPS */
+.card-item2{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 auto;
+}
+.container .card .card-item2 img{
+    /* width: 200px; */
+    height: 200px;
+    margin: 0 10px;
+}
+.Stumpline1{
+    font-family: 'Roboto Slab', serif;
+    margin: 0 27px;
+}
+.Stumpline2{
+    margin: 0 15px;
+    color: green;
+}
+.Stumpline3{
+    margin: 0 44px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+     /* FOR KEEPING GLOVES */
+.card-item3{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 auto;
+}
+.container .card .card-item3 img{
+    /* width: 200px; */
+    height: 200px;
+    margin: 0 10px;
+}
+.KeepingGlovesline1{
+    font-family: 'Roboto Slab', serif;
+    margin: 0 22px;
+}
+.KeepingGlovesline2{
+    margin: 0 15px;
+    color: green;
+}
+.KeepingGlovesline3{
+    margin: 0 44px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Zen Antique', serif;
+}
